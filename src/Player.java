@@ -3,6 +3,7 @@ public class Player {
     private String playerName;
     private int age;
     private String playerRole;
+    private int playerScore;
 
     public int getPlayerId(){
         return playerId;
@@ -36,4 +37,8 @@ public class Player {
     {
         this.playerRole = role;
     }
+
+    public void setPlayerScore(int score){this.playerScore = score;}
+
+    public int getPlayerScore(){return this.playerScore;}
 }

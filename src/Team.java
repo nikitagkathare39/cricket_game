@@ -4,9 +4,15 @@ import java.util.List;
 class Team {
     private String name;
     private List<Player> players = new ArrayList<Player>();
+    private int score;
+    private int wicket;
 
     Team(String n){
         this.name = n;
+    }
+
+    public void setScore(int score){
+        this.score = score;
     }
 
     public String getName()
@@ -26,5 +32,20 @@ class Team {
         {
             players.add(player);
         }
+    }
+
+    int getScore()
+    {
+        return this.score;
+    }
+
+    void setWickets(int noOfWicket)
+    {
+        this.wicket = noOfWicket;
+    }
+
+    int getWicketLost()
+    {
+        return this.wicket;
     }
 }
