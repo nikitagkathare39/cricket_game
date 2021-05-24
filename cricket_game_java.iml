@@ -17,5 +17,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="mongodb-driver-3.11.2.jar" level="project" />
   </component>
 </module>

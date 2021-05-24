@@ -1,15 +1,15 @@
-package com.cricketgame.code;
+package com.cricketgame.code.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Team {
+public class Team {
     private String name;
     private List<Player> players = new ArrayList<Player>();
     private int score;
     private int wicket;
 
-    Team(String n){
+    public Team(String n){
         this.name = n;
     }
 
@@ -36,7 +36,7 @@ class Team {
         }
     }
 
-    int getScore()
+    public int getScore()
     {
         return this.score;
     }
@@ -46,7 +46,7 @@ class Team {
         this.wicket = noOfWicket;
     }
 
-    int getWicketLost()
+    public int getWicketLost()
     {
         return this.wicket;
     }

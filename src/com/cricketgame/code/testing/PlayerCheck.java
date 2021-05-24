@@ -1,6 +1,6 @@
-package com.cricketgame.testing;
+package com.cricketgame.code.testing;
 
-import com.cricketgame.code.Player;
+import com.cricketgame.code.model.Player;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
